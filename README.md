@@ -15,7 +15,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> This website was created for fun and it presents me and py personal projects.
     <br> 
 </p>
 
@@ -33,7 +33,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Languages
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -46,24 +46,6 @@ What things you need to install the software and how to install them.
 ```
 Give examples
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
