@@ -15,7 +15,7 @@
 
 ---
 
-<p align="center"> This website was created for fun and it presents me and py personal projects.
+<p align="center"> This website was created for fun and it presents me and my personal projects.
     <br> 
 </p>
 
