@@ -43,7 +43,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #6649b8;
+    background: #445c8f;
 }
 /*---------------------Scrollbar---------------------*/
 
@@ -352,7 +352,7 @@ html.is-leaving .transition-fade {
 
 @media screen and (min-width: 800px) { /*The following CSS runs only for displays with a width (in pixels) of more than 800px*/
   .animate-in {
-    background: linear-gradient(-45deg, #ee7752, #aeceec, #c3e1ec, #f0f1f1);
+    background: linear-gradient(-45deg, #fdfdfd, #5ea7eb, #88cde6, #f0f1f1);
     background-size: 400% 400%;
     animation: gradient 12s ease infinite;
   }
@@ -360,7 +360,7 @@ html.is-leaving .transition-fade {
 
 @media screen and (max-width: 800px) { /*The following CSS runs only for displays with a width (in pixels) of less than 800px*/
   .animate-in {
-    background: linear-gradient(-45deg, #ee7752, #aeceec, #c3e1ec, #f0f1f1);
+    background: linear-gradient(-45deg, #fdfdfd, #5ea7eb, #88cde6, #f0f1f1);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
   }
@@ -379,16 +379,13 @@ html.is-leaving .transition-fade {
 }
 
 .prjContainer .content p {
-  margin-left: 2rem;
-  text-indent: 5rem;
-  margin-right: 2rem;
   text-align: justify;
   padding: 1rem;
   padding-top: 0;
   border-style: none;
   border-width: 0.15rem;
   border-radius: 5px;
-  background-color: #dae9f7;
+  background-color: transparent;
   margin-top: 1rem;
 }
 
@@ -399,21 +396,24 @@ html.is-leaving .transition-fade {
   text-decoration: none;
   transition: var(--transition-speed);
   font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
   border-radius: 5px;
   border-color: rgb(0, 0, 0);
   border-width: 0.15rem;
   margin: 1rem;
   padding: 0.5rem;
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   text-transform: uppercase;
   border-style: none;
-  justify-content: center
+  justify-content: left;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
 }
 
 .active, .containerLink:hover {
-  background-color: #dae9f7;
-  color: rgb(0, 0, 0);
+  background-color: transparent;
+  color: rgba(59, 137, 255, 0.973);
   text-decoration: underline;
 }
 /*
@@ -427,13 +427,14 @@ html.is-leaving .transition-fade {
 
 /*---------------------Project_Page_Collapsible(Displaying projects)--------------------*/
 .collapsible {
-  background-color: rgb(179, 222, 241);
+  background-color: transparent;
   color: rgb(0, 0, 0);
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border-style: none;
-  border-color: none;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
   text-align: left;
   outline: none;
   font-size: 22px;
@@ -453,18 +454,19 @@ html.is-leaving .transition-fade {
 
 .content {
   display: none;
-  background-color: #dae9f7;
+  background-color: transparent;
   margin-top: 0.5rem;
   border-radius: 10px;
   text-align: justify;
   margin-right: 0;
-  border-style: solid;
+  border-style: none;
   border-width: 0.1rem;
   margin-bottom: 5rem;
 }
 
 .collapsible:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
+  color: black;
   font-size: 18px;
   float: right;
   margin-left: 5px;
@@ -473,6 +475,7 @@ html.is-leaving .transition-fade {
 
 .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
+  color: #000000;
   justify-content: center;
 }
 /*---------------------Project_Page_Collapsible(Displaying projects)--------------------*/
