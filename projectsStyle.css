@@ -13,7 +13,7 @@
     font-weight: 300;
     text-align: justify;
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     line-height: 35px;
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -88,4 +88,23 @@
 header.collapsibleHeader {
     margin: 1rem;
     padding: 1;
+}
+
+.contentBtn {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(48, 48, 48);
+    margin: 1rem;
+    padding: 1;
+    text-indent: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-style: none;
+    border-color: transparent;
+    background-color: transparent;
+    font-weight: 600;
+    text-align: justify;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    line-height: 35px;
 }
