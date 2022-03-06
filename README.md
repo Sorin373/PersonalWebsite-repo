@@ -22,9 +22,7 @@
 ## 📝 Table of Contents
 
 - [About](#about)
-- [Getting Started](#getting_started)
 - [Deployment](#deployment)
-- [Usage](#usage)
 - [Built Using](#built_using)
 - [TODO](../TODO.md)
 - [Contributing](../CONTRIBUTING.md)
@@ -32,20 +30,6 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-
-Languages
-
-## 🏁 Getting Started <a name = "getting_started"></a>
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
-```
-Give examples
-```
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
@@ -66,21 +50,16 @@ Explain what these tests test and why
 ```
 Give an example
 ```
-
-## 🎈 Usage <a name="usage"></a>
-
-Add notes about how to use the system.
-
 ## 🚀 Deployment <a name = "deployment"></a>
 
 Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+- [Html](https://html.spec.whatwg.org/multipage/)
+- [JS](https://www.javascript.com/)  
+- [NodeJs](https://nodejs.org/en/)
 
 ## ✍️ Authors <a name = "authors"></a>
 
