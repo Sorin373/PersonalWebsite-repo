@@ -23,6 +23,35 @@
   margin-bottom: 0;
   padding: 0;
 }
+
+@media screen and (min-width: 800px) { /*The following CSS runs only for displays with a width (in pixels) of more than 800px*/
+  .animate-in {
+    background: linear-gradient(-60deg, #f8c6c6, #abb484, #d6c97e, #ff9d60);
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+  }
+}
+
+@media screen and (max-width: 800px) { /*The following CSS runs only for displays with a width (in pixels) of less than 800px*/
+  .animate-in {
+    background: linear-gradient(-60deg, #f8c6c6, #abb484, #d6c97e, #ff9d60);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 /*---------------------Webpage_PopIn_Animation---------------------*/
 
 /*Default body features*/
@@ -253,10 +282,9 @@ main {
 
 
 /*--------------------------------------------------------------------------*/
-
 .container {
   width: auto;
-  height: 50vh;
+  height: 80vh;
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -265,11 +293,38 @@ main {
   grid-template-rows: 1;
   padding: 1;
   align-items: left;
-  border-style: solid;
+  border-style: none;
+  border-color: transparent;
   margin: 7rem;
-  border-color: #0e0505;
-  background-image: url('TestPicture.png');
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-right: 7rem;
+  background-image: none;
   background-size: cover;
+  border-radius: 0.5rem;
+  animation-name: slidein;
+  animation-duration: 1s;
+}
+
+.container-large {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20pt;
+  font-weight: 300;
+  margin: 2rem;
+  text-indent: 3rem;
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: auto;
+  }
+
+  to {
+    margin-left: 7rem;
+    width: auto;
+  }
 }
 
 
